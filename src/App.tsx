@@ -1,10 +1,12 @@
-import { Container } from "./AppStyled";
+import { Container, TodoAppContainer } from "./AppStyled";
 import TodoApp from "./components/TodoApp";
 
 function App() {
   return (
     <Container>
-      <TodoApp />
+      <TodoAppContainer>
+        <TodoApp />
+      </TodoAppContainer>
     </Container>
   );
 }
