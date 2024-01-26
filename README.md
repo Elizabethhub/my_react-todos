@@ -21,27 +21,30 @@ Before you begin, ensure you have the following installed:
 ## Installation
 
 1. Clone the repository:
-   bash
-   Copy code
+
+```bash
    git clone https://github.com/Elizabethhub/my_react-todos.git
+```
 
 2. Navigate to the project directory:
-   bash
-   Copy code
+
+```bash
    cd my_react-todos
+```
 
 3. Install dependencies:
-   bash
-   Copy code
+
+```bash
    yarn install
+```
 
 ## Running the Application
 
 To run the application locally, follow these steps:
 
-bash
-Copy code
+```bash
 yarn electron:serve
+```
 
 This command starts the development server for the React app and launches Electron. It may take a moment for the app to open.
 
